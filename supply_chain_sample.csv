@@ -1,0 +1,501 @@
+order_id,product,supplier,destination,order_date,expected_delivery,actual_delivery,lead_time,shipping_mode,quantity,inventory,demand,shipping_cost
+ORD-1000,Copper Wire,WiredTech,Houston,2023-02-20,2023-03-19,2023-03-19,27,Air Freight,425,85,101,1716
+ORD-1001,Plastic Resins,GlobalMetals,Houston,2023-09-28,2023-10-22,2023-10-22,24,Sea Shipping,108,96,186,4551
+ORD-1002,Industrial Motors,PolyMakers,Houston,2023-10-04,2023-10-12,2023-10-11,8,Standard Freight,82,64,231,2697
+ORD-1003,Plastic Resins,HeavyParts Co,Houston,2023-05-21,2023-06-18,2023-06-17,28,Air Freight,367,98,160,3306
+ORD-1004,Plastic Resins,HeavyParts Co,Miami,2023-10-02,2023-10-30,2023-10-29,28,Standard Freight,99,39,50,1278
+ORD-1005,Microchips,GlobalMetals,Miami,2023-10-17,2023-10-23,2023-10-22,6,Air Freight,417,142,93,1472
+ORD-1006,Industrial Motors,WiredTech,Los Angeles,2023-02-21,2023-03-15,2023-03-14,22,Air Freight,68,86,276,3310
+ORD-1007,Industrial Motors,WiredTech,New York,2023-01-27,2023-02-19,2023-02-19,23,Standard Freight,263,102,124,2623
+ORD-1008,Industrial Motors,PolyMakers,Houston,2023-06-06,2023-06-29,2023-06-29,23,Air Freight,246,22,147,1098
+ORD-1009,Plastic Resins,GlobalMetals,Los Angeles,2023-08-27,2023-09-17,2023-09-17,21,Air Freight,428,83,257,3841
+ORD-1010,Copper Wire,HeavyParts Co,New York,2023-06-05,2023-06-23,2023-06-23,18,Sea Shipping,499,59,58,724
+ORD-1011,Industrial Motors,WiredTech,Chicago,2023-10-18,2023-11-10,2023-11-09,23,Air Freight,96,78,81,1340
+ORD-1012,Plastic Resins,GlobalMetals,Miami,2023-05-16,2023-06-11,2023-06-10,26,Air Freight,216,81,64,2314
+ORD-1013,Microchips,WiredTech,New York,2023-05-24,2023-06-21,2023-06-20,28,Air Freight,338,151,189,1606
+ORD-1014,Copper Wire,WiredTech,Chicago,2023-04-16,2023-05-03,2023-05-03,17,Sea Shipping,190,79,274,624
+ORD-1015,Microchips,HeavyParts Co,New York,2023-06-07,2023-06-23,2023-06-26,16,Standard Freight,133,135,286,3746
+ORD-1016,Copper Wire,TechSupply Inc,Miami,2023-05-26,2023-06-05,2023-06-05,10,Sea Shipping,231,94,255,3431
+ORD-1017,Plastic Resins,PolyMakers,Miami,2023-01-02,2023-01-27,2023-02-01,25,Sea Shipping,440,141,298,4625
+ORD-1018,Steel Beams,PolyMakers,Los Angeles,2023-03-18,2023-03-26,2023-03-25,8,Standard Freight,128,126,234,3471
+ORD-1019,Copper Wire,HeavyParts Co,Houston,2023-05-12,2023-06-04,2023-06-04,23,Sea Shipping,264,115,185,2517
+ORD-1020,Microchips,WiredTech,New York,2023-03-31,2023-04-20,2023-04-20,20,Standard Freight,63,110,121,2915
+ORD-1021,Plastic Resins,GlobalMetals,New York,2023-09-20,2023-10-07,2023-10-06,17,Sea Shipping,264,177,204,3596
+ORD-1022,Copper Wire,WiredTech,Chicago,2023-04-18,2023-04-26,2023-04-25,8,Standard Freight,452,149,239,2109
+ORD-1023,Steel Beams,HeavyParts Co,Miami,2023-03-15,2023-04-11,2023-04-11,27,Air Freight,177,81,61,1217
+ORD-1024,Steel Beams,PolyMakers,New York,2023-02-08,2023-03-01,2023-02-28,21,Sea Shipping,359,68,114,4061
+ORD-1025,Industrial Motors,WiredTech,Miami,2023-06-08,2023-07-05,2023-07-04,27,Sea Shipping,297,156,156,1516
+ORD-1026,Industrial Motors,PolyMakers,New York,2023-03-12,2023-03-17,2023-03-29,5,Sea Shipping,453,111,281,4065
+ORD-1027,Microchips,GlobalMetals,Los Angeles,2023-08-29,2023-09-20,2023-09-23,22,Sea Shipping,78,178,91,4970
+ORD-1028,Copper Wire,PolyMakers,Houston,2023-10-25,2023-11-18,2023-11-18,24,Air Freight,329,143,239,2460
+ORD-1029,Copper Wire,PolyMakers,New York,2023-02-05,2023-02-26,2023-02-25,21,Sea Shipping,387,80,164,1548
+ORD-1030,Industrial Motors,TechSupply Inc,Miami,2023-03-25,2023-04-13,2023-04-27,19,Air Freight,368,67,188,1857
+ORD-1031,Copper Wire,TechSupply Inc,Los Angeles,2023-09-20,2023-10-05,2023-10-16,15,Air Freight,251,172,152,3926
+ORD-1032,Copper Wire,TechSupply Inc,New York,2023-06-21,2023-07-20,2023-07-26,29,Air Freight,410,183,220,615
+ORD-1033,Steel Beams,PolyMakers,Chicago,2023-06-22,2023-07-18,2023-07-17,26,Air Freight,106,155,144,2595
+ORD-1034,Industrial Motors,HeavyParts Co,Houston,2023-02-16,2023-03-05,2023-03-05,17,Standard Freight,441,77,66,2301
+ORD-1035,Plastic Resins,PolyMakers,New York,2023-05-21,2023-05-26,2023-05-25,5,Standard Freight,267,120,274,2646
+ORD-1036,Industrial Motors,HeavyParts Co,Los Angeles,2023-04-28,2023-05-19,2023-05-26,21,Sea Shipping,111,131,209,2120
+ORD-1037,Plastic Resins,HeavyParts Co,Chicago,2023-10-04,2023-10-14,2023-10-13,10,Standard Freight,206,192,299,3450
+ORD-1038,Steel Beams,TechSupply Inc,Los Angeles,2023-08-02,2023-08-10,2023-08-17,8,Standard Freight,251,81,270,4292
+ORD-1039,Microchips,WiredTech,Los Angeles,2023-08-08,2023-09-01,2023-09-04,24,Sea Shipping,66,58,262,3441
+ORD-1040,Copper Wire,GlobalMetals,Chicago,2023-01-26,2023-02-15,2023-02-14,20,Sea Shipping,371,77,134,1477
+ORD-1041,Steel Beams,TechSupply Inc,Los Angeles,2023-01-09,2023-01-28,2023-02-08,19,Sea Shipping,55,118,217,3566
+ORD-1042,Copper Wire,TechSupply Inc,Chicago,2023-09-28,2023-10-17,2023-10-31,19,Standard Freight,107,63,200,1283
+ORD-1043,Microchips,WiredTech,New York,2023-01-10,2023-01-20,2023-01-24,10,Standard Freight,374,48,105,740
+ORD-1044,Microchips,GlobalMetals,Chicago,2023-05-01,2023-05-20,2023-05-27,19,Sea Shipping,461,78,183,2053
+ORD-1045,Steel Beams,PolyMakers,Chicago,2023-05-05,2023-05-23,2023-06-06,18,Air Freight,367,90,135,1512
+ORD-1046,Microchips,PolyMakers,Houston,2023-06-19,2023-07-04,2023-07-03,15,Sea Shipping,218,111,227,686
+ORD-1047,Plastic Resins,TechSupply Inc,Chicago,2023-03-13,2023-03-24,2023-03-23,11,Air Freight,131,28,151,2381
+ORD-1048,Microchips,GlobalMetals,Chicago,2023-06-01,2023-06-14,2023-06-14,13,Air Freight,474,146,214,930
+ORD-1049,Copper Wire,TechSupply Inc,New York,2023-07-27,2023-08-16,2023-08-16,20,Sea Shipping,482,153,286,738
+ORD-1050,Copper Wire,HeavyParts Co,Houston,2023-02-18,2023-02-27,2023-03-12,9,Sea Shipping,268,176,241,2845
+ORD-1051,Copper Wire,TechSupply Inc,Miami,2023-06-03,2023-07-02,2023-07-02,29,Sea Shipping,226,164,292,575
+ORD-1052,Copper Wire,TechSupply Inc,New York,2023-10-20,2023-11-13,2023-11-13,24,Standard Freight,253,163,103,1856
+ORD-1053,Plastic Resins,PolyMakers,New York,2023-03-09,2023-03-23,2023-04-04,14,Air Freight,120,150,249,2830
+ORD-1054,Industrial Motors,PolyMakers,Miami,2023-02-19,2023-03-13,2023-03-13,22,Standard Freight,436,40,282,2402
+ORD-1055,Steel Beams,PolyMakers,Chicago,2023-06-01,2023-06-08,2023-06-11,7,Standard Freight,315,83,226,4513
+ORD-1056,Copper Wire,HeavyParts Co,Los Angeles,2023-01-19,2023-02-05,2023-02-05,17,Sea Shipping,147,109,276,2559
+ORD-1057,Microchips,PolyMakers,Houston,2023-04-10,2023-04-25,2023-04-25,15,Standard Freight,394,55,164,640
+ORD-1058,Copper Wire,GlobalMetals,Los Angeles,2023-03-01,2023-03-22,2023-03-21,21,Sea Shipping,340,81,188,2289
+ORD-1059,Microchips,WiredTech,Miami,2023-06-16,2023-07-12,2023-07-11,26,Air Freight,257,189,137,4126
+ORD-1060,Microchips,GlobalMetals,New York,2023-07-21,2023-08-07,2023-08-06,17,Sea Shipping,51,95,98,516
+ORD-1061,Copper Wire,GlobalMetals,New York,2023-05-26,2023-06-05,2023-06-05,10,Standard Freight,173,189,198,4848
+ORD-1062,Plastic Resins,PolyMakers,Houston,2023-06-13,2023-07-04,2023-07-09,21,Standard Freight,329,32,164,964
+ORD-1063,Microchips,WiredTech,New York,2023-08-30,2023-09-16,2023-09-20,17,Sea Shipping,123,30,243,4971
+ORD-1064,Microchips,WiredTech,New York,2023-03-10,2023-04-02,2023-04-01,23,Sea Shipping,215,73,112,2327
+ORD-1065,Copper Wire,WiredTech,Houston,2023-06-24,2023-07-19,2023-07-18,25,Standard Freight,71,35,153,3528
+ORD-1066,Microchips,HeavyParts Co,Houston,2023-02-18,2023-03-13,2023-03-12,23,Air Freight,203,27,132,1019
+ORD-1067,Microchips,PolyMakers,Miami,2023-04-18,2023-05-02,2023-05-01,14,Air Freight,476,123,152,589
+ORD-1068,Copper Wire,WiredTech,New York,2023-08-14,2023-08-21,2023-08-21,7,Sea Shipping,488,78,205,3351
+ORD-1069,Copper Wire,HeavyParts Co,New York,2023-06-10,2023-06-28,2023-06-27,18,Air Freight,344,76,66,3343
+ORD-1070,Steel Beams,TechSupply Inc,Miami,2023-04-29,2023-05-22,2023-05-21,23,Standard Freight,268,59,55,2384
+ORD-1071,Plastic Resins,TechSupply Inc,Chicago,2023-05-29,2023-06-07,2023-06-07,9,Sea Shipping,206,149,196,4671
+ORD-1072,Plastic Resins,HeavyParts Co,Chicago,2023-05-30,2023-06-08,2023-06-07,9,Standard Freight,279,113,233,1425
+ORD-1073,Microchips,HeavyParts Co,Chicago,2023-10-20,2023-11-13,2023-11-13,24,Standard Freight,69,157,279,4234
+ORD-1074,Plastic Resins,PolyMakers,Miami,2023-05-23,2023-06-13,2023-06-19,21,Air Freight,90,63,77,1469
+ORD-1075,Microchips,PolyMakers,New York,2023-06-09,2023-07-04,2023-07-04,25,Sea Shipping,487,158,243,1594
+ORD-1076,Steel Beams,TechSupply Inc,Miami,2023-01-11,2023-01-25,2023-01-28,14,Sea Shipping,197,99,87,3695
+ORD-1077,Copper Wire,WiredTech,Miami,2023-05-18,2023-05-27,2023-05-31,9,Air Freight,157,100,168,1904
+ORD-1078,Copper Wire,TechSupply Inc,Chicago,2023-03-19,2023-03-27,2023-04-04,8,Standard Freight,452,21,86,3864
+ORD-1079,Copper Wire,WiredTech,Los Angeles,2023-03-18,2023-03-28,2023-03-28,10,Standard Freight,133,197,164,4790
+ORD-1080,Plastic Resins,WiredTech,New York,2023-09-11,2023-09-19,2023-09-18,8,Standard Freight,416,159,293,4482
+ORD-1081,Steel Beams,PolyMakers,Chicago,2023-09-15,2023-09-26,2023-10-03,11,Standard Freight,371,134,117,4823
+ORD-1082,Plastic Resins,GlobalMetals,Los Angeles,2023-10-18,2023-10-29,2023-10-28,11,Sea Shipping,463,109,263,4513
+ORD-1083,Plastic Resins,GlobalMetals,Los Angeles,2023-09-20,2023-10-12,2023-10-11,22,Sea Shipping,358,42,267,3592
+ORD-1084,Steel Beams,HeavyParts Co,Houston,2023-03-26,2023-04-02,2023-04-01,7,Air Freight,339,165,226,4659
+ORD-1085,Steel Beams,PolyMakers,New York,2023-05-26,2023-05-31,2023-06-05,5,Air Freight,455,81,92,2574
+ORD-1086,Steel Beams,WiredTech,Los Angeles,2023-02-11,2023-03-11,2023-03-10,28,Sea Shipping,372,132,213,784
+ORD-1087,Steel Beams,GlobalMetals,Chicago,2023-05-05,2023-06-03,2023-06-03,29,Sea Shipping,183,147,107,1687
+ORD-1088,Copper Wire,WiredTech,Houston,2023-06-16,2023-06-24,2023-07-08,8,Standard Freight,256,81,62,4469
+ORD-1089,Industrial Motors,GlobalMetals,New York,2023-08-29,2023-09-08,2023-09-20,10,Standard Freight,332,57,101,3465
+ORD-1090,Industrial Motors,GlobalMetals,Miami,2023-10-07,2023-10-20,2023-10-20,13,Air Freight,315,185,107,4819
+ORD-1091,Steel Beams,GlobalMetals,Chicago,2023-07-07,2023-08-02,2023-08-01,26,Sea Shipping,122,80,81,1283
+ORD-1092,Industrial Motors,PolyMakers,Los Angeles,2023-01-19,2023-02-06,2023-02-06,18,Air Freight,401,148,258,1449
+ORD-1093,Industrial Motors,TechSupply Inc,Los Angeles,2023-03-09,2023-03-25,2023-03-25,16,Sea Shipping,97,192,154,4439
+ORD-1094,Steel Beams,WiredTech,Chicago,2023-08-06,2023-09-04,2023-09-04,29,Standard Freight,375,175,277,544
+ORD-1095,Industrial Motors,PolyMakers,Los Angeles,2023-04-12,2023-05-06,2023-05-06,24,Air Freight,282,168,296,2310
+ORD-1096,Plastic Resins,PolyMakers,Houston,2023-02-11,2023-03-11,2023-03-14,28,Air Freight,492,141,237,2581
+ORD-1097,Microchips,PolyMakers,New York,2023-10-15,2023-11-13,2023-11-12,29,Sea Shipping,149,129,287,3998
+ORD-1098,Microchips,PolyMakers,Houston,2023-06-16,2023-06-24,2023-06-24,8,Standard Freight,108,32,132,1329
+ORD-1099,Steel Beams,PolyMakers,Los Angeles,2023-04-19,2023-05-14,2023-05-13,25,Air Freight,307,174,235,2409
+ORD-1100,Copper Wire,HeavyParts Co,Miami,2023-02-05,2023-03-05,2023-03-05,28,Standard Freight,462,119,148,3081
+ORD-1101,Steel Beams,WiredTech,New York,2023-08-20,2023-09-05,2023-09-04,16,Air Freight,114,154,287,1191
+ORD-1102,Copper Wire,PolyMakers,New York,2023-08-17,2023-08-31,2023-09-09,14,Standard Freight,132,41,153,4519
+ORD-1103,Microchips,WiredTech,Chicago,2023-06-13,2023-07-09,2023-07-08,26,Sea Shipping,203,93,233,1431
+ORD-1104,Steel Beams,HeavyParts Co,Chicago,2023-03-14,2023-03-25,2023-03-30,11,Air Freight,315,151,77,3906
+ORD-1105,Plastic Resins,HeavyParts Co,Miami,2023-05-16,2023-05-23,2023-05-23,7,Air Freight,358,42,178,647
+ORD-1106,Industrial Motors,WiredTech,New York,2023-03-11,2023-04-07,2023-04-09,27,Standard Freight,128,138,219,1532
+ORD-1107,Copper Wire,GlobalMetals,Miami,2023-07-15,2023-08-02,2023-08-14,18,Standard Freight,364,89,259,1811
+ORD-1108,Industrial Motors,TechSupply Inc,Chicago,2023-09-26,2023-10-24,2023-10-24,28,Air Freight,199,103,97,887
+ORD-1109,Industrial Motors,GlobalMetals,Chicago,2023-02-18,2023-03-04,2023-03-06,14,Sea Shipping,484,120,89,3621
+ORD-1110,Steel Beams,GlobalMetals,New York,2023-05-10,2023-05-30,2023-05-30,20,Standard Freight,97,103,146,2373
+ORD-1111,Industrial Motors,GlobalMetals,Houston,2023-01-05,2023-01-25,2023-01-24,20,Standard Freight,454,180,240,4088
+ORD-1112,Plastic Resins,PolyMakers,Los Angeles,2023-01-27,2023-02-22,2023-03-03,26,Standard Freight,428,47,253,1415
+ORD-1113,Industrial Motors,HeavyParts Co,Chicago,2023-06-09,2023-06-23,2023-06-26,14,Air Freight,297,155,249,2378
+ORD-1114,Steel Beams,GlobalMetals,Chicago,2023-05-29,2023-06-27,2023-06-26,29,Air Freight,327,20,265,4248
+ORD-1115,Plastic Resins,HeavyParts Co,Houston,2023-09-21,2023-10-08,2023-10-08,17,Air Freight,405,184,257,777
+ORD-1116,Microchips,WiredTech,Houston,2023-08-18,2023-08-28,2023-08-27,10,Air Freight,147,82,163,2477
+ORD-1117,Industrial Motors,TechSupply Inc,Miami,2023-07-19,2023-08-04,2023-08-03,16,Sea Shipping,463,41,181,2359
+ORD-1118,Steel Beams,WiredTech,Miami,2023-02-19,2023-03-04,2023-03-04,13,Sea Shipping,74,89,215,3536
+ORD-1119,Microchips,WiredTech,Los Angeles,2023-03-08,2023-03-25,2023-03-25,17,Air Freight,333,144,285,3871
+ORD-1120,Microchips,PolyMakers,Los Angeles,2023-10-27,2023-11-04,2023-11-03,8,Sea Shipping,498,168,204,2682
+ORD-1121,Copper Wire,TechSupply Inc,New York,2023-02-27,2023-03-27,2023-03-26,28,Standard Freight,418,115,186,1670
+ORD-1122,Plastic Resins,WiredTech,Miami,2023-09-16,2023-10-01,2023-10-07,15,Standard Freight,350,182,160,989
+ORD-1123,Industrial Motors,WiredTech,Chicago,2023-05-10,2023-06-03,2023-06-02,24,Standard Freight,117,98,193,3025
+ORD-1124,Steel Beams,TechSupply Inc,Miami,2023-08-03,2023-08-25,2023-08-24,22,Air Freight,56,24,233,1682
+ORD-1125,Copper Wire,TechSupply Inc,Chicago,2023-06-21,2023-07-06,2023-07-05,15,Standard Freight,354,79,125,4979
+ORD-1126,Plastic Resins,WiredTech,Houston,2023-09-15,2023-10-14,2023-10-13,29,Sea Shipping,186,139,80,4758
+ORD-1127,Copper Wire,TechSupply Inc,Miami,2023-04-12,2023-05-07,2023-05-07,25,Air Freight,213,65,265,2988
+ORD-1128,Plastic Resins,WiredTech,Houston,2023-07-28,2023-08-05,2023-08-05,8,Sea Shipping,132,197,168,2376
+ORD-1129,Plastic Resins,WiredTech,Los Angeles,2023-10-18,2023-11-09,2023-11-09,22,Standard Freight,434,195,191,2962
+ORD-1130,Industrial Motors,PolyMakers,Los Angeles,2023-10-13,2023-10-18,2023-10-17,5,Standard Freight,187,153,286,2130
+ORD-1131,Plastic Resins,GlobalMetals,New York,2023-04-26,2023-05-07,2023-05-06,11,Standard Freight,469,75,74,787
+ORD-1132,Copper Wire,WiredTech,Miami,2023-09-21,2023-10-01,2023-09-30,10,Air Freight,122,129,83,4782
+ORD-1133,Plastic Resins,HeavyParts Co,Houston,2023-05-30,2023-06-18,2023-06-17,19,Sea Shipping,286,176,116,2407
+ORD-1134,Industrial Motors,GlobalMetals,Chicago,2023-10-27,2023-11-18,2023-11-17,22,Air Freight,95,123,299,1661
+ORD-1135,Industrial Motors,GlobalMetals,Los Angeles,2023-02-05,2023-03-05,2023-03-05,28,Air Freight,155,96,201,629
+ORD-1136,Copper Wire,GlobalMetals,Los Angeles,2023-10-14,2023-10-29,2023-10-28,15,Standard Freight,465,165,167,2863
+ORD-1137,Microchips,PolyMakers,Chicago,2023-07-27,2023-08-20,2023-08-19,24,Air Freight,337,21,283,643
+ORD-1138,Microchips,WiredTech,Houston,2023-04-16,2023-05-14,2023-05-26,28,Air Freight,311,27,122,515
+ORD-1139,Plastic Resins,PolyMakers,Houston,2023-06-07,2023-06-26,2023-06-25,19,Standard Freight,225,94,75,744
+ORD-1140,Steel Beams,WiredTech,Miami,2023-05-01,2023-05-21,2023-05-27,20,Air Freight,215,144,197,1426
+ORD-1141,Plastic Resins,PolyMakers,Miami,2023-02-24,2023-03-07,2023-03-07,11,Standard Freight,194,57,241,3678
+ORD-1142,Copper Wire,PolyMakers,New York,2023-01-12,2023-02-06,2023-02-06,25,Standard Freight,379,195,153,2676
+ORD-1143,Copper Wire,HeavyParts Co,Los Angeles,2023-05-25,2023-06-08,2023-06-22,14,Standard Freight,419,46,59,1386
+ORD-1144,Copper Wire,PolyMakers,Miami,2023-05-16,2023-06-01,2023-06-05,16,Standard Freight,332,39,260,840
+ORD-1145,Copper Wire,TechSupply Inc,Houston,2023-01-03,2023-01-31,2023-01-30,28,Air Freight,103,159,116,2551
+ORD-1146,Copper Wire,HeavyParts Co,Chicago,2023-05-24,2023-06-11,2023-06-11,18,Standard Freight,227,62,201,3898
+ORD-1147,Industrial Motors,PolyMakers,Houston,2023-01-30,2023-02-28,2023-02-28,29,Standard Freight,468,50,54,4450
+ORD-1148,Microchips,GlobalMetals,Los Angeles,2023-08-25,2023-09-03,2023-09-14,9,Air Freight,293,110,244,805
+ORD-1149,Copper Wire,TechSupply Inc,Houston,2023-10-06,2023-10-31,2023-10-30,25,Air Freight,390,80,235,1407
+ORD-1150,Steel Beams,TechSupply Inc,New York,2023-04-25,2023-05-17,2023-05-17,22,Sea Shipping,176,128,76,3154
+ORD-1151,Steel Beams,TechSupply Inc,Los Angeles,2023-04-14,2023-04-23,2023-04-22,9,Air Freight,458,110,257,4292
+ORD-1152,Steel Beams,HeavyParts Co,Chicago,2023-04-28,2023-05-05,2023-05-04,7,Air Freight,461,182,162,4542
+ORD-1153,Steel Beams,PolyMakers,New York,2023-01-05,2023-02-01,2023-02-01,27,Sea Shipping,416,114,64,1871
+ORD-1154,Industrial Motors,PolyMakers,Los Angeles,2023-09-05,2023-09-14,2023-09-26,9,Air Freight,320,162,212,820
+ORD-1155,Steel Beams,GlobalMetals,Chicago,2023-05-01,2023-05-29,2023-05-28,28,Air Freight,181,163,253,4559
+ORD-1156,Copper Wire,GlobalMetals,New York,2023-10-13,2023-11-03,2023-11-03,21,Air Freight,142,32,154,1631
+ORD-1157,Plastic Resins,TechSupply Inc,New York,2023-05-29,2023-06-21,2023-06-21,23,Air Freight,428,132,230,3078
+ORD-1158,Steel Beams,GlobalMetals,Los Angeles,2023-03-25,2023-04-17,2023-04-27,23,Sea Shipping,122,54,93,4542
+ORD-1159,Industrial Motors,HeavyParts Co,Miami,2023-08-19,2023-09-17,2023-09-17,29,Air Freight,460,168,75,3867
+ORD-1160,Industrial Motors,PolyMakers,New York,2023-10-15,2023-11-09,2023-11-17,25,Air Freight,459,177,224,1317
+ORD-1161,Steel Beams,TechSupply Inc,New York,2023-06-10,2023-06-26,2023-06-26,16,Sea Shipping,452,67,211,511
+ORD-1162,Plastic Resins,GlobalMetals,Chicago,2023-09-29,2023-10-28,2023-10-28,29,Standard Freight,297,54,264,694
+ORD-1163,Steel Beams,HeavyParts Co,Houston,2023-02-07,2023-02-20,2023-02-19,13,Sea Shipping,397,105,144,3037
+ORD-1164,Industrial Motors,HeavyParts Co,Los Angeles,2023-08-14,2023-08-19,2023-08-24,5,Standard Freight,322,185,227,3342
+ORD-1165,Microchips,GlobalMetals,Los Angeles,2023-05-22,2023-06-13,2023-06-19,22,Sea Shipping,92,178,133,2729
+ORD-1166,Copper Wire,PolyMakers,Miami,2023-10-19,2023-11-13,2023-11-12,25,Sea Shipping,426,171,189,3509
+ORD-1167,Industrial Motors,GlobalMetals,Miami,2023-05-31,2023-06-08,2023-06-12,8,Air Freight,90,133,264,2577
+ORD-1168,Steel Beams,TechSupply Inc,Los Angeles,2023-04-24,2023-05-08,2023-05-12,14,Standard Freight,219,196,181,4367
+ORD-1169,Copper Wire,GlobalMetals,Miami,2023-08-25,2023-09-23,2023-09-23,29,Air Freight,483,119,136,943
+ORD-1170,Steel Beams,HeavyParts Co,Chicago,2023-03-07,2023-03-18,2023-03-18,11,Standard Freight,261,179,225,797
+ORD-1171,Steel Beams,GlobalMetals,Los Angeles,2023-09-15,2023-10-11,2023-10-23,26,Sea Shipping,217,118,232,1344
+ORD-1172,Microchips,PolyMakers,Miami,2023-09-06,2023-10-03,2023-10-02,27,Sea Shipping,88,22,161,1515
+ORD-1173,Copper Wire,WiredTech,Los Angeles,2023-06-29,2023-07-04,2023-07-06,5,Standard Freight,418,104,178,1884
+ORD-1174,Copper Wire,GlobalMetals,Houston,2023-07-09,2023-07-30,2023-07-29,21,Air Freight,294,144,295,1897
+ORD-1175,Microchips,PolyMakers,New York,2023-06-03,2023-07-01,2023-07-01,28,Air Freight,200,157,138,1053
+ORD-1176,Industrial Motors,PolyMakers,Los Angeles,2023-07-15,2023-07-21,2023-07-20,6,Air Freight,160,102,115,2850
+ORD-1177,Steel Beams,HeavyParts Co,New York,2023-09-19,2023-10-04,2023-10-04,15,Air Freight,485,44,207,1769
+ORD-1178,Plastic Resins,PolyMakers,Miami,2023-05-23,2023-06-05,2023-06-04,13,Sea Shipping,96,87,180,1760
+ORD-1179,Steel Beams,PolyMakers,New York,2023-04-11,2023-04-22,2023-04-22,11,Sea Shipping,112,80,171,684
+ORD-1180,Steel Beams,PolyMakers,Los Angeles,2023-09-01,2023-09-27,2023-10-09,26,Sea Shipping,274,48,198,2910
+ORD-1181,Industrial Motors,PolyMakers,Houston,2023-01-12,2023-02-02,2023-02-01,21,Sea Shipping,415,146,266,4931
+ORD-1182,Steel Beams,TechSupply Inc,Miami,2023-08-27,2023-09-17,2023-09-16,21,Sea Shipping,118,38,133,2709
+ORD-1183,Microchips,TechSupply Inc,Los Angeles,2023-02-18,2023-02-24,2023-02-24,6,Air Freight,348,190,226,4172
+ORD-1184,Microchips,HeavyParts Co,Miami,2023-02-11,2023-02-21,2023-02-20,10,Air Freight,481,93,165,2381
+ORD-1185,Copper Wire,GlobalMetals,Chicago,2023-06-15,2023-07-03,2023-07-03,18,Air Freight,339,80,263,4796
+ORD-1186,Plastic Resins,PolyMakers,New York,2023-03-23,2023-04-02,2023-04-13,10,Air Freight,345,190,262,1021
+ORD-1187,Steel Beams,GlobalMetals,Chicago,2023-10-18,2023-10-24,2023-10-23,6,Sea Shipping,252,172,239,2387
+ORD-1188,Steel Beams,GlobalMetals,Los Angeles,2023-06-07,2023-06-12,2023-06-12,5,Sea Shipping,110,39,274,3052
+ORD-1189,Industrial Motors,HeavyParts Co,Houston,2023-08-04,2023-08-18,2023-08-17,14,Sea Shipping,483,67,165,4309
+ORD-1190,Microchips,PolyMakers,Miami,2023-06-07,2023-07-02,2023-07-01,25,Standard Freight,367,106,87,4655
+ORD-1191,Plastic Resins,PolyMakers,New York,2023-05-14,2023-05-23,2023-05-23,9,Air Freight,363,171,192,4916
+ORD-1192,Copper Wire,WiredTech,Miami,2023-03-08,2023-03-14,2023-03-13,6,Air Freight,210,158,299,3979
+ORD-1193,Microchips,GlobalMetals,Los Angeles,2023-01-07,2023-02-02,2023-02-14,26,Sea Shipping,380,129,299,1909
+ORD-1194,Copper Wire,GlobalMetals,Miami,2023-01-14,2023-02-03,2023-02-15,20,Air Freight,65,47,159,2194
+ORD-1195,Industrial Motors,TechSupply Inc,New York,2023-03-14,2023-04-12,2023-04-22,29,Air Freight,387,78,229,1026
+ORD-1196,Industrial Motors,WiredTech,Los Angeles,2023-06-12,2023-06-18,2023-06-18,6,Sea Shipping,143,152,256,3160
+ORD-1197,Steel Beams,TechSupply Inc,Miami,2023-03-07,2023-03-21,2023-03-27,14,Standard Freight,353,70,95,2672
+ORD-1198,Plastic Resins,TechSupply Inc,Houston,2023-05-10,2023-05-16,2023-05-15,6,Standard Freight,187,168,74,779
+ORD-1199,Copper Wire,TechSupply Inc,Los Angeles,2023-07-25,2023-08-14,2023-08-14,20,Standard Freight,387,31,70,3464
+ORD-1200,Microchips,HeavyParts Co,Los Angeles,2023-10-03,2023-10-23,2023-10-23,20,Sea Shipping,87,69,265,4477
+ORD-1201,Industrial Motors,HeavyParts Co,Houston,2023-09-13,2023-10-06,2023-10-05,23,Air Freight,176,151,170,3169
+ORD-1202,Steel Beams,TechSupply Inc,Chicago,2023-09-23,2023-10-04,2023-10-07,11,Sea Shipping,324,132,171,3393
+ORD-1203,Steel Beams,WiredTech,New York,2023-01-25,2023-02-20,2023-02-19,26,Sea Shipping,213,189,182,2251
+ORD-1204,Copper Wire,GlobalMetals,Chicago,2023-10-08,2023-10-24,2023-10-24,16,Air Freight,492,185,119,4481
+ORD-1205,Industrial Motors,WiredTech,Miami,2023-09-10,2023-10-08,2023-10-08,28,Standard Freight,368,172,162,2861
+ORD-1206,Plastic Resins,PolyMakers,Houston,2023-10-16,2023-11-04,2023-11-04,19,Standard Freight,126,33,156,4927
+ORD-1207,Industrial Motors,HeavyParts Co,Chicago,2023-06-13,2023-06-25,2023-06-24,12,Sea Shipping,223,51,161,4631
+ORD-1208,Copper Wire,GlobalMetals,Los Angeles,2023-04-05,2023-04-15,2023-04-15,10,Standard Freight,436,158,157,2208
+ORD-1209,Copper Wire,GlobalMetals,Miami,2023-09-27,2023-10-11,2023-10-10,14,Sea Shipping,407,165,96,3186
+ORD-1210,Industrial Motors,PolyMakers,Miami,2023-04-20,2023-04-27,2023-04-27,7,Sea Shipping,370,174,264,3395
+ORD-1211,Copper Wire,PolyMakers,Chicago,2023-08-26,2023-09-18,2023-09-17,23,Air Freight,425,74,245,3276
+ORD-1212,Industrial Motors,TechSupply Inc,Chicago,2023-01-25,2023-02-15,2023-02-19,21,Air Freight,140,139,140,1619
+ORD-1213,Microchips,HeavyParts Co,Houston,2023-05-21,2023-06-01,2023-06-01,11,Air Freight,287,94,67,3488
+ORD-1214,Industrial Motors,HeavyParts Co,New York,2023-04-27,2023-05-22,2023-05-26,25,Sea Shipping,313,40,198,4759
+ORD-1215,Industrial Motors,WiredTech,Chicago,2023-01-25,2023-02-18,2023-02-17,24,Air Freight,228,191,269,4743
+ORD-1216,Copper Wire,TechSupply Inc,Chicago,2023-03-20,2023-03-28,2023-03-27,8,Standard Freight,258,152,276,694
+ORD-1217,Copper Wire,TechSupply Inc,Los Angeles,2023-03-09,2023-03-27,2023-03-31,18,Standard Freight,122,106,263,1162
+ORD-1218,Steel Beams,TechSupply Inc,Miami,2023-06-22,2023-07-16,2023-07-16,24,Sea Shipping,439,188,153,979
+ORD-1219,Steel Beams,TechSupply Inc,New York,2023-01-12,2023-02-07,2023-02-07,26,Sea Shipping,156,78,200,4718
+ORD-1220,Microchips,HeavyParts Co,Los Angeles,2023-10-15,2023-11-03,2023-11-02,19,Air Freight,394,108,241,1923
+ORD-1221,Steel Beams,HeavyParts Co,Houston,2023-05-08,2023-06-05,2023-06-05,28,Sea Shipping,344,169,244,3208
+ORD-1222,Industrial Motors,TechSupply Inc,Houston,2023-04-06,2023-04-18,2023-04-18,12,Sea Shipping,418,102,89,3675
+ORD-1223,Copper Wire,WiredTech,Chicago,2023-04-02,2023-04-27,2023-05-05,25,Standard Freight,493,84,291,4314
+ORD-1224,Steel Beams,GlobalMetals,Chicago,2023-05-21,2023-06-09,2023-06-09,19,Standard Freight,333,83,187,2514
+ORD-1225,Steel Beams,GlobalMetals,Houston,2023-01-31,2023-02-26,2023-03-09,26,Air Freight,402,90,138,4289
+ORD-1226,Microchips,WiredTech,Chicago,2023-01-20,2023-02-13,2023-02-12,24,Sea Shipping,231,23,229,2943
+ORD-1227,Microchips,TechSupply Inc,New York,2023-05-26,2023-06-13,2023-06-19,18,Sea Shipping,86,162,290,1411
+ORD-1228,Industrial Motors,HeavyParts Co,Chicago,2023-06-09,2023-06-22,2023-06-22,13,Standard Freight,186,123,249,3713
+ORD-1229,Copper Wire,GlobalMetals,Miami,2023-02-12,2023-02-24,2023-02-23,12,Sea Shipping,387,169,296,2864
+ORD-1230,Microchips,PolyMakers,Chicago,2023-09-11,2023-10-02,2023-10-07,21,Standard Freight,105,194,252,4129
+ORD-1231,Steel Beams,PolyMakers,Los Angeles,2023-05-10,2023-05-16,2023-05-16,6,Air Freight,236,112,110,3972
+ORD-1232,Copper Wire,WiredTech,New York,2023-03-01,2023-03-30,2023-03-29,29,Standard Freight,390,193,241,1180
+ORD-1233,Copper Wire,TechSupply Inc,Los Angeles,2023-05-31,2023-06-28,2023-06-27,28,Sea Shipping,307,161,54,1109
+ORD-1234,Steel Beams,GlobalMetals,Los Angeles,2023-10-14,2023-10-21,2023-10-21,7,Air Freight,494,197,171,2656
+ORD-1235,Microchips,TechSupply Inc,Miami,2023-01-05,2023-01-17,2023-01-16,12,Standard Freight,107,167,286,4366
+ORD-1236,Steel Beams,GlobalMetals,New York,2023-09-23,2023-10-09,2023-10-08,16,Standard Freight,412,197,230,871
+ORD-1237,Copper Wire,WiredTech,New York,2023-05-10,2023-05-15,2023-05-29,5,Air Freight,172,131,104,1115
+ORD-1238,Plastic Resins,WiredTech,New York,2023-09-24,2023-10-08,2023-10-22,14,Air Freight,237,180,86,2753
+ORD-1239,Plastic Resins,PolyMakers,New York,2023-06-27,2023-07-21,2023-07-20,24,Standard Freight,279,138,105,4638
+ORD-1240,Industrial Motors,TechSupply Inc,New York,2023-09-10,2023-09-17,2023-09-17,7,Sea Shipping,217,78,236,1364
+ORD-1241,Steel Beams,PolyMakers,Miami,2023-02-25,2023-03-07,2023-03-06,10,Standard Freight,469,62,286,1768
+ORD-1242,Steel Beams,TechSupply Inc,Chicago,2023-03-24,2023-04-04,2023-04-04,11,Air Freight,163,31,151,1284
+ORD-1243,Industrial Motors,PolyMakers,Los Angeles,2023-04-09,2023-05-03,2023-05-02,24,Standard Freight,301,59,142,4678
+ORD-1244,Industrial Motors,HeavyParts Co,New York,2023-05-29,2023-06-25,2023-06-25,27,Air Freight,156,137,246,2737
+ORD-1245,Industrial Motors,HeavyParts Co,Chicago,2023-06-05,2023-07-04,2023-07-03,29,Air Freight,86,39,122,4554
+ORD-1246,Copper Wire,HeavyParts Co,Chicago,2023-07-09,2023-07-31,2023-07-30,22,Sea Shipping,384,185,108,1435
+ORD-1247,Steel Beams,HeavyParts Co,Los Angeles,2023-09-20,2023-10-05,2023-10-04,15,Air Freight,141,150,289,4480
+ORD-1248,Copper Wire,GlobalMetals,Miami,2023-03-21,2023-04-13,2023-04-13,23,Air Freight,67,175,51,2838
+ORD-1249,Industrial Motors,HeavyParts Co,Houston,2023-09-09,2023-09-18,2023-09-18,9,Sea Shipping,403,109,242,825
+ORD-1250,Steel Beams,WiredTech,Houston,2023-04-07,2023-04-30,2023-04-29,23,Air Freight,112,113,153,2034
+ORD-1251,Copper Wire,WiredTech,Chicago,2023-09-17,2023-10-02,2023-10-13,15,Sea Shipping,199,32,237,3980
+ORD-1252,Copper Wire,GlobalMetals,Los Angeles,2023-09-17,2023-10-15,2023-10-19,28,Sea Shipping,188,85,100,4361
+ORD-1253,Industrial Motors,HeavyParts Co,Houston,2023-04-13,2023-04-29,2023-04-29,16,Air Freight,235,56,79,2485
+ORD-1254,Steel Beams,HeavyParts Co,Chicago,2023-02-09,2023-02-23,2023-02-23,14,Air Freight,234,196,60,3278
+ORD-1255,Industrial Motors,HeavyParts Co,Miami,2023-09-30,2023-10-12,2023-10-12,12,Standard Freight,254,85,269,1770
+ORD-1256,Steel Beams,PolyMakers,Houston,2023-04-11,2023-05-09,2023-05-09,28,Sea Shipping,309,55,157,1140
+ORD-1257,Plastic Resins,TechSupply Inc,Chicago,2023-08-09,2023-08-22,2023-08-31,13,Standard Freight,263,45,125,4578
+ORD-1258,Microchips,PolyMakers,Chicago,2023-05-04,2023-05-12,2023-05-12,8,Air Freight,305,94,216,1867
+ORD-1259,Microchips,TechSupply Inc,New York,2023-08-19,2023-08-28,2023-08-27,9,Standard Freight,184,127,139,4542
+ORD-1260,Microchips,HeavyParts Co,Miami,2023-06-27,2023-07-22,2023-07-22,25,Sea Shipping,110,187,254,3075
+ORD-1261,Industrial Motors,HeavyParts Co,New York,2023-03-04,2023-03-16,2023-03-16,12,Standard Freight,412,62,172,4103
+ORD-1262,Plastic Resins,PolyMakers,Los Angeles,2023-04-26,2023-05-23,2023-05-22,27,Sea Shipping,359,169,249,2081
+ORD-1263,Steel Beams,PolyMakers,New York,2023-07-10,2023-07-23,2023-07-26,13,Air Freight,137,167,240,2486
+ORD-1264,Copper Wire,TechSupply Inc,New York,2023-03-03,2023-03-22,2023-03-22,19,Air Freight,373,27,241,2740
+ORD-1265,Steel Beams,WiredTech,Houston,2023-09-13,2023-10-02,2023-10-01,19,Sea Shipping,256,48,238,4466
+ORD-1266,Copper Wire,TechSupply Inc,Chicago,2023-01-07,2023-01-27,2023-01-26,20,Air Freight,178,59,174,2605
+ORD-1267,Steel Beams,PolyMakers,Miami,2023-06-04,2023-06-22,2023-06-21,18,Air Freight,360,177,231,628
+ORD-1268,Plastic Resins,PolyMakers,New York,2023-04-02,2023-04-14,2023-04-19,12,Air Freight,52,147,269,4496
+ORD-1269,Copper Wire,GlobalMetals,Miami,2023-01-14,2023-02-05,2023-02-09,22,Air Freight,471,103,171,1351
+ORD-1270,Industrial Motors,PolyMakers,New York,2023-08-17,2023-08-31,2023-08-30,14,Sea Shipping,291,135,143,4603
+ORD-1271,Steel Beams,GlobalMetals,Los Angeles,2023-03-27,2023-04-20,2023-04-20,24,Standard Freight,170,163,250,2576
+ORD-1272,Steel Beams,WiredTech,New York,2023-05-13,2023-05-23,2023-05-25,10,Standard Freight,434,193,152,3494
+ORD-1273,Copper Wire,TechSupply Inc,Houston,2023-07-02,2023-07-18,2023-07-26,16,Air Freight,151,81,272,4244
+ORD-1274,Industrial Motors,TechSupply Inc,Chicago,2023-03-03,2023-03-09,2023-03-09,6,Standard Freight,87,26,235,3256
+ORD-1275,Industrial Motors,GlobalMetals,Los Angeles,2023-08-07,2023-08-18,2023-08-27,11,Standard Freight,390,64,262,2144
+ORD-1276,Plastic Resins,TechSupply Inc,New York,2023-09-03,2023-09-23,2023-09-22,20,Air Freight,462,195,233,4871
+ORD-1277,Industrial Motors,PolyMakers,Miami,2023-08-18,2023-08-25,2023-08-25,7,Air Freight,182,174,288,3644
+ORD-1278,Industrial Motors,HeavyParts Co,Los Angeles,2023-03-20,2023-04-06,2023-04-06,17,Standard Freight,251,107,211,742
+ORD-1279,Industrial Motors,GlobalMetals,Los Angeles,2023-05-29,2023-06-05,2023-06-11,7,Sea Shipping,397,92,296,4585
+ORD-1280,Microchips,TechSupply Inc,New York,2023-05-18,2023-06-09,2023-06-15,22,Air Freight,70,182,80,670
+ORD-1281,Plastic Resins,GlobalMetals,Los Angeles,2023-03-06,2023-03-21,2023-03-20,15,Sea Shipping,291,198,101,1152
+ORD-1282,Steel Beams,GlobalMetals,Miami,2023-01-13,2023-01-25,2023-01-25,12,Standard Freight,158,56,138,4012
+ORD-1283,Copper Wire,HeavyParts Co,Los Angeles,2023-08-01,2023-08-11,2023-08-11,10,Air Freight,352,138,125,1999
+ORD-1284,Steel Beams,PolyMakers,Miami,2023-08-30,2023-09-04,2023-09-18,5,Sea Shipping,133,76,178,2599
+ORD-1285,Plastic Resins,GlobalMetals,New York,2023-08-01,2023-08-06,2023-08-06,5,Air Freight,132,27,232,2658
+ORD-1286,Copper Wire,TechSupply Inc,Chicago,2023-06-30,2023-07-27,2023-07-26,27,Standard Freight,340,114,71,2472
+ORD-1287,Plastic Resins,WiredTech,Los Angeles,2023-06-22,2023-07-04,2023-07-03,12,Sea Shipping,118,136,89,4425
+ORD-1288,Industrial Motors,GlobalMetals,Chicago,2023-06-09,2023-06-18,2023-06-17,9,Standard Freight,178,129,150,2758
+ORD-1289,Copper Wire,GlobalMetals,Miami,2023-06-13,2023-07-03,2023-07-03,20,Standard Freight,245,39,160,4539
+ORD-1290,Industrial Motors,HeavyParts Co,Los Angeles,2023-07-07,2023-07-22,2023-07-22,15,Air Freight,189,143,178,2535
+ORD-1291,Steel Beams,PolyMakers,Houston,2023-07-10,2023-07-19,2023-07-30,9,Sea Shipping,493,72,114,3771
+ORD-1292,Steel Beams,WiredTech,Chicago,2023-09-13,2023-09-21,2023-09-20,8,Standard Freight,332,138,298,1357
+ORD-1293,Copper Wire,TechSupply Inc,Los Angeles,2023-07-02,2023-07-12,2023-07-20,10,Standard Freight,361,31,240,4323
+ORD-1294,Copper Wire,WiredTech,Chicago,2023-04-27,2023-05-15,2023-05-15,18,Sea Shipping,283,196,283,1549
+ORD-1295,Plastic Resins,TechSupply Inc,Los Angeles,2023-10-09,2023-11-04,2023-11-03,26,Standard Freight,72,36,231,4490
+ORD-1296,Plastic Resins,PolyMakers,New York,2023-07-15,2023-08-07,2023-08-13,23,Standard Freight,202,83,219,798
+ORD-1297,Industrial Motors,TechSupply Inc,Chicago,2023-02-03,2023-02-16,2023-02-16,13,Sea Shipping,326,61,198,1423
+ORD-1298,Copper Wire,HeavyParts Co,Houston,2023-02-21,2023-03-09,2023-03-14,16,Sea Shipping,110,113,128,4732
+ORD-1299,Steel Beams,HeavyParts Co,Houston,2023-04-22,2023-05-07,2023-05-07,15,Sea Shipping,368,176,258,4806
+ORD-1300,Plastic Resins,HeavyParts Co,Miami,2023-09-09,2023-09-27,2023-09-26,18,Sea Shipping,427,166,71,3299
+ORD-1301,Plastic Resins,HeavyParts Co,Los Angeles,2023-03-23,2023-04-19,2023-04-23,27,Air Freight,101,30,215,4562
+ORD-1302,Steel Beams,WiredTech,Chicago,2023-08-20,2023-09-09,2023-09-08,20,Sea Shipping,393,117,148,4545
+ORD-1303,Plastic Resins,PolyMakers,Miami,2023-08-15,2023-08-20,2023-08-20,5,Air Freight,202,197,286,2302
+ORD-1304,Industrial Motors,TechSupply Inc,Chicago,2023-08-21,2023-09-07,2023-09-12,17,Air Freight,286,90,257,3213
+ORD-1305,Copper Wire,TechSupply Inc,Los Angeles,2023-08-09,2023-09-05,2023-09-18,27,Air Freight,360,127,57,3353
+ORD-1306,Steel Beams,HeavyParts Co,Houston,2023-02-11,2023-03-08,2023-03-07,25,Standard Freight,351,77,239,3157
+ORD-1307,Copper Wire,HeavyParts Co,New York,2023-01-21,2023-02-15,2023-02-14,25,Air Freight,81,53,224,3846
+ORD-1308,Plastic Resins,GlobalMetals,Houston,2023-02-11,2023-02-28,2023-02-28,17,Air Freight,104,39,66,1971
+ORD-1309,Plastic Resins,PolyMakers,Miami,2023-04-23,2023-04-29,2023-05-04,6,Standard Freight,401,69,66,3449
+ORD-1310,Steel Beams,WiredTech,New York,2023-04-15,2023-04-23,2023-05-03,8,Standard Freight,438,121,295,1441
+ORD-1311,Industrial Motors,TechSupply Inc,Miami,2023-07-11,2023-07-21,2023-07-21,10,Standard Freight,85,157,139,2407
+ORD-1312,Microchips,GlobalMetals,Los Angeles,2023-01-17,2023-02-13,2023-02-27,27,Sea Shipping,159,179,190,1743
+ORD-1313,Steel Beams,GlobalMetals,New York,2023-04-30,2023-05-09,2023-05-17,9,Standard Freight,226,71,194,4923
+ORD-1314,Microchips,TechSupply Inc,Miami,2023-05-09,2023-06-07,2023-06-18,29,Standard Freight,411,34,215,1966
+ORD-1315,Microchips,WiredTech,Los Angeles,2023-05-10,2023-05-17,2023-05-16,7,Air Freight,363,103,130,4457
+ORD-1316,Industrial Motors,GlobalMetals,Houston,2023-03-01,2023-03-06,2023-03-05,5,Standard Freight,344,150,289,2466
+ORD-1317,Microchips,GlobalMetals,Los Angeles,2023-02-17,2023-02-25,2023-02-24,8,Sea Shipping,385,56,127,875
+ORD-1318,Microchips,PolyMakers,Chicago,2023-01-29,2023-02-27,2023-02-27,29,Standard Freight,146,145,222,762
+ORD-1319,Industrial Motors,WiredTech,Los Angeles,2023-04-07,2023-05-01,2023-05-01,24,Sea Shipping,418,59,55,4862
+ORD-1320,Microchips,GlobalMetals,Los Angeles,2023-01-10,2023-01-16,2023-01-15,6,Standard Freight,262,91,212,3888
+ORD-1321,Microchips,WiredTech,Chicago,2023-08-30,2023-09-08,2023-09-20,9,Standard Freight,366,59,159,3895
+ORD-1322,Microchips,TechSupply Inc,Miami,2023-08-20,2023-08-27,2023-08-27,7,Standard Freight,186,75,63,2444
+ORD-1323,Steel Beams,HeavyParts Co,Miami,2023-10-04,2023-10-17,2023-10-16,13,Standard Freight,55,170,288,2393
+ORD-1324,Steel Beams,GlobalMetals,Los Angeles,2023-10-11,2023-11-04,2023-11-04,24,Sea Shipping,158,123,121,4134
+ORD-1325,Steel Beams,PolyMakers,Chicago,2023-07-22,2023-08-01,2023-07-31,10,Sea Shipping,84,158,238,2152
+ORD-1326,Industrial Motors,TechSupply Inc,Chicago,2023-09-04,2023-09-26,2023-09-25,22,Air Freight,88,129,192,4641
+ORD-1327,Plastic Resins,WiredTech,Houston,2023-10-17,2023-10-27,2023-11-08,10,Sea Shipping,199,155,103,4392
+ORD-1328,Microchips,TechSupply Inc,Miami,2023-09-21,2023-10-14,2023-10-14,23,Standard Freight,474,112,76,1099
+ORD-1329,Microchips,GlobalMetals,New York,2023-08-02,2023-08-18,2023-08-17,16,Air Freight,167,113,62,2412
+ORD-1330,Industrial Motors,WiredTech,Miami,2023-07-19,2023-08-17,2023-08-16,29,Air Freight,310,75,290,1792
+ORD-1331,Microchips,HeavyParts Co,Miami,2023-03-20,2023-04-04,2023-04-04,15,Air Freight,475,79,208,1100
+ORD-1332,Steel Beams,TechSupply Inc,Houston,2023-06-22,2023-06-28,2023-06-27,6,Standard Freight,136,157,294,880
+ORD-1333,Plastic Resins,GlobalMetals,New York,2023-03-10,2023-03-29,2023-04-07,19,Sea Shipping,125,58,297,4713
+ORD-1334,Copper Wire,PolyMakers,Houston,2023-03-28,2023-04-13,2023-04-12,16,Standard Freight,463,47,212,4137
+ORD-1335,Microchips,WiredTech,New York,2023-04-11,2023-04-27,2023-05-03,16,Air Freight,362,68,109,2663
+ORD-1336,Steel Beams,TechSupply Inc,Los Angeles,2023-01-08,2023-01-21,2023-01-20,13,Standard Freight,432,183,55,4855
+ORD-1337,Copper Wire,TechSupply Inc,New York,2023-07-19,2023-08-13,2023-08-13,25,Standard Freight,263,144,246,1598
+ORD-1338,Plastic Resins,HeavyParts Co,Houston,2023-03-28,2023-04-25,2023-04-24,28,Sea Shipping,334,32,263,865
+ORD-1339,Copper Wire,HeavyParts Co,Miami,2023-02-12,2023-02-18,2023-02-18,6,Sea Shipping,288,55,107,3070
+ORD-1340,Steel Beams,PolyMakers,New York,2023-04-19,2023-05-15,2023-05-14,26,Air Freight,214,120,98,3919
+ORD-1341,Copper Wire,PolyMakers,New York,2023-06-01,2023-06-08,2023-06-20,7,Standard Freight,136,45,200,2976
+ORD-1342,Industrial Motors,GlobalMetals,Chicago,2023-01-17,2023-02-02,2023-02-02,16,Standard Freight,190,105,266,1290
+ORD-1343,Copper Wire,GlobalMetals,Miami,2023-05-13,2023-06-02,2023-06-13,20,Sea Shipping,209,23,211,4069
+ORD-1344,Microchips,PolyMakers,Los Angeles,2023-05-28,2023-06-22,2023-06-21,25,Standard Freight,95,101,75,1246
+ORD-1345,Microchips,PolyMakers,Houston,2023-10-04,2023-11-01,2023-11-13,28,Standard Freight,421,185,96,812
+ORD-1346,Industrial Motors,WiredTech,Los Angeles,2023-08-20,2023-08-25,2023-08-28,5,Standard Freight,161,146,54,1420
+ORD-1347,Steel Beams,HeavyParts Co,Miami,2023-08-16,2023-09-10,2023-09-10,25,Sea Shipping,456,107,267,1577
+ORD-1348,Microchips,GlobalMetals,New York,2023-05-19,2023-05-26,2023-06-05,7,Air Freight,94,146,69,3329
+ORD-1349,Plastic Resins,HeavyParts Co,New York,2023-07-30,2023-08-23,2023-08-23,24,Air Freight,450,139,183,2881
+ORD-1350,Microchips,HeavyParts Co,Miami,2023-01-28,2023-02-03,2023-02-03,6,Standard Freight,296,41,247,4118
+ORD-1351,Microchips,PolyMakers,New York,2023-02-20,2023-03-05,2023-03-16,13,Air Freight,153,149,108,1297
+ORD-1352,Steel Beams,WiredTech,New York,2023-09-18,2023-10-11,2023-10-10,23,Sea Shipping,134,50,241,4943
+ORD-1353,Copper Wire,TechSupply Inc,New York,2023-09-18,2023-10-07,2023-10-17,19,Sea Shipping,499,138,291,772
+ORD-1354,Microchips,WiredTech,Houston,2023-01-08,2023-01-30,2023-02-01,22,Air Freight,183,30,195,3510
+ORD-1355,Industrial Motors,WiredTech,Houston,2023-05-18,2023-06-02,2023-06-01,15,Air Freight,157,65,181,2273
+ORD-1356,Copper Wire,HeavyParts Co,Chicago,2023-02-07,2023-03-08,2023-03-13,29,Standard Freight,67,115,66,3047
+ORD-1357,Plastic Resins,WiredTech,Los Angeles,2023-04-21,2023-05-18,2023-05-18,27,Air Freight,143,29,298,3664
+ORD-1358,Steel Beams,GlobalMetals,Miami,2023-08-08,2023-08-28,2023-09-07,20,Standard Freight,199,187,63,1446
+ORD-1359,Plastic Resins,HeavyParts Co,Miami,2023-08-11,2023-09-06,2023-09-18,26,Standard Freight,295,147,255,3165
+ORD-1360,Copper Wire,GlobalMetals,Miami,2023-05-16,2023-06-06,2023-06-06,21,Sea Shipping,338,171,62,1006
+ORD-1361,Copper Wire,TechSupply Inc,Chicago,2023-09-13,2023-09-22,2023-09-22,9,Sea Shipping,463,118,184,743
+ORD-1362,Copper Wire,HeavyParts Co,Houston,2023-02-18,2023-03-06,2023-03-13,16,Sea Shipping,258,191,177,1005
+ORD-1363,Plastic Resins,TechSupply Inc,Chicago,2023-10-19,2023-11-03,2023-11-03,15,Sea Shipping,175,131,93,3658
+ORD-1364,Copper Wire,HeavyParts Co,Miami,2023-03-19,2023-04-07,2023-04-09,19,Air Freight,284,79,168,4090
+ORD-1365,Plastic Resins,PolyMakers,Los Angeles,2023-04-15,2023-04-22,2023-04-22,7,Sea Shipping,465,106,192,2372
+ORD-1366,Copper Wire,WiredTech,New York,2023-06-18,2023-06-23,2023-06-23,5,Air Freight,475,164,68,4293
+ORD-1367,Industrial Motors,PolyMakers,Houston,2023-08-05,2023-08-29,2023-08-29,24,Sea Shipping,171,84,112,1692
+ORD-1368,Copper Wire,TechSupply Inc,Houston,2023-04-29,2023-05-19,2023-05-18,20,Air Freight,187,76,284,4925
+ORD-1369,Plastic Resins,WiredTech,Chicago,2023-07-09,2023-07-15,2023-07-15,6,Standard Freight,164,125,288,1964
+ORD-1370,Microchips,HeavyParts Co,Houston,2023-09-12,2023-09-18,2023-09-18,6,Air Freight,469,28,285,890
+ORD-1371,Copper Wire,WiredTech,Miami,2023-09-23,2023-09-30,2023-09-30,7,Air Freight,211,41,212,4976
+ORD-1372,Microchips,GlobalMetals,Miami,2023-05-29,2023-06-10,2023-06-09,12,Sea Shipping,250,160,130,3877
+ORD-1373,Industrial Motors,WiredTech,Chicago,2023-06-13,2023-07-11,2023-07-14,28,Air Freight,283,108,212,1172
+ORD-1374,Steel Beams,GlobalMetals,Miami,2023-05-20,2023-06-08,2023-06-07,19,Standard Freight,77,195,196,3060
+ORD-1375,Industrial Motors,WiredTech,Los Angeles,2023-09-15,2023-09-26,2023-09-26,11,Standard Freight,60,37,197,1711
+ORD-1376,Copper Wire,GlobalMetals,Chicago,2023-09-26,2023-10-06,2023-10-05,10,Sea Shipping,255,134,149,1429
+ORD-1377,Microchips,TechSupply Inc,Los Angeles,2023-06-30,2023-07-13,2023-07-13,13,Standard Freight,216,187,212,2039
+ORD-1378,Microchips,PolyMakers,New York,2023-06-09,2023-07-03,2023-07-03,24,Air Freight,296,164,209,1412
+ORD-1379,Plastic Resins,HeavyParts Co,Los Angeles,2023-10-15,2023-10-20,2023-10-27,5,Standard Freight,96,162,171,1143
+ORD-1380,Microchips,WiredTech,New York,2023-10-15,2023-10-27,2023-10-29,12,Sea Shipping,295,125,225,1001
+ORD-1381,Plastic Resins,PolyMakers,New York,2023-08-14,2023-09-10,2023-09-10,27,Air Freight,176,34,93,1229
+ORD-1382,Steel Beams,HeavyParts Co,Los Angeles,2023-01-11,2023-02-07,2023-02-07,27,Sea Shipping,196,82,153,1783
+ORD-1383,Copper Wire,HeavyParts Co,Chicago,2023-01-10,2023-01-17,2023-01-16,7,Air Freight,167,186,201,2618
+ORD-1384,Plastic Resins,GlobalMetals,Miami,2023-09-28,2023-10-06,2023-10-06,8,Standard Freight,448,32,110,4886
+ORD-1385,Steel Beams,TechSupply Inc,Miami,2023-09-30,2023-10-29,2023-10-29,29,Sea Shipping,431,100,174,4336
+ORD-1386,Microchips,TechSupply Inc,New York,2023-07-02,2023-07-21,2023-07-20,19,Sea Shipping,461,51,194,1419
+ORD-1387,Microchips,PolyMakers,New York,2023-06-02,2023-06-12,2023-06-22,10,Air Freight,201,156,120,4550
+ORD-1388,Steel Beams,TechSupply Inc,Chicago,2023-05-04,2023-05-23,2023-05-25,19,Sea Shipping,121,59,156,2839
+ORD-1389,Microchips,WiredTech,Houston,2023-04-24,2023-05-19,2023-05-18,25,Air Freight,412,167,99,1255
+ORD-1390,Steel Beams,TechSupply Inc,Los Angeles,2023-10-05,2023-10-12,2023-10-12,7,Air Freight,186,101,114,2369
+ORD-1391,Plastic Resins,PolyMakers,New York,2023-08-01,2023-08-30,2023-09-09,29,Air Freight,224,96,148,4972
+ORD-1392,Plastic Resins,TechSupply Inc,Miami,2023-06-21,2023-07-16,2023-07-16,25,Air Freight,338,95,81,1007
+ORD-1393,Steel Beams,WiredTech,Chicago,2023-10-15,2023-11-09,2023-11-09,25,Standard Freight,495,191,213,1936
+ORD-1394,Plastic Resins,GlobalMetals,Los Angeles,2023-06-23,2023-07-11,2023-07-11,18,Air Freight,68,57,190,3075
+ORD-1395,Plastic Resins,PolyMakers,Chicago,2023-04-23,2023-05-17,2023-05-16,24,Sea Shipping,244,90,247,3926
+ORD-1396,Plastic Resins,GlobalMetals,Los Angeles,2023-05-02,2023-05-20,2023-05-19,18,Standard Freight,379,67,107,1058
+ORD-1397,Industrial Motors,GlobalMetals,Los Angeles,2023-02-01,2023-02-09,2023-02-14,8,Sea Shipping,473,37,177,3602
+ORD-1398,Copper Wire,GlobalMetals,New York,2023-08-10,2023-08-26,2023-08-25,16,Standard Freight,224,163,191,4122
+ORD-1399,Microchips,HeavyParts Co,Chicago,2023-04-29,2023-05-20,2023-05-20,21,Air Freight,498,58,214,4899
+ORD-1400,Industrial Motors,HeavyParts Co,Chicago,2023-02-08,2023-02-19,2023-02-23,11,Standard Freight,462,108,161,4557
+ORD-1401,Plastic Resins,GlobalMetals,Miami,2023-09-25,2023-10-08,2023-10-08,13,Standard Freight,483,81,256,4215
+ORD-1402,Steel Beams,PolyMakers,Miami,2023-08-21,2023-08-28,2023-08-28,7,Sea Shipping,403,160,288,1801
+ORD-1403,Plastic Resins,WiredTech,New York,2023-01-18,2023-02-04,2023-02-04,17,Sea Shipping,190,128,117,2655
+ORD-1404,Copper Wire,WiredTech,New York,2023-05-29,2023-06-17,2023-06-16,19,Air Freight,295,100,89,1192
+ORD-1405,Plastic Resins,TechSupply Inc,Houston,2023-05-29,2023-06-20,2023-07-04,22,Standard Freight,434,153,236,4850
+ORD-1406,Steel Beams,PolyMakers,Miami,2023-05-06,2023-05-29,2023-05-29,23,Standard Freight,467,96,257,1978
+ORD-1407,Copper Wire,HeavyParts Co,Los Angeles,2023-08-26,2023-08-31,2023-08-30,5,Standard Freight,142,109,269,756
+ORD-1408,Plastic Resins,GlobalMetals,Chicago,2023-05-15,2023-05-25,2023-05-25,10,Air Freight,481,33,193,2930
+ORD-1409,Copper Wire,TechSupply Inc,New York,2023-05-31,2023-06-27,2023-06-29,27,Air Freight,288,114,239,941
+ORD-1410,Microchips,WiredTech,Chicago,2023-08-24,2023-08-30,2023-08-30,6,Air Freight,254,73,181,2381
+ORD-1411,Microchips,HeavyParts Co,Chicago,2023-08-12,2023-09-09,2023-09-08,28,Air Freight,97,151,222,3146
+ORD-1412,Plastic Resins,HeavyParts Co,Houston,2023-07-22,2023-08-09,2023-08-14,18,Air Freight,482,58,139,4320
+ORD-1413,Copper Wire,GlobalMetals,Miami,2023-09-13,2023-09-23,2023-09-28,10,Sea Shipping,294,91,77,2235
+ORD-1414,Steel Beams,WiredTech,New York,2023-03-27,2023-04-14,2023-04-13,18,Standard Freight,369,44,145,4235
+ORD-1415,Plastic Resins,PolyMakers,Chicago,2023-05-30,2023-06-07,2023-06-07,8,Standard Freight,366,96,286,3145
+ORD-1416,Microchips,HeavyParts Co,New York,2023-08-23,2023-09-17,2023-09-17,25,Standard Freight,462,179,243,518
+ORD-1417,Microchips,GlobalMetals,Los Angeles,2023-01-22,2023-02-03,2023-02-03,12,Standard Freight,344,185,80,1624
+ORD-1418,Plastic Resins,PolyMakers,Houston,2023-10-12,2023-10-19,2023-10-18,7,Standard Freight,177,139,52,4485
+ORD-1419,Copper Wire,WiredTech,Los Angeles,2023-09-26,2023-10-19,2023-10-19,23,Standard Freight,393,72,295,3154
+ORD-1420,Microchips,HeavyParts Co,New York,2023-09-15,2023-10-03,2023-10-12,18,Standard Freight,331,175,185,2580
+ORD-1421,Copper Wire,PolyMakers,New York,2023-01-29,2023-02-22,2023-02-21,24,Standard Freight,66,150,73,2047
+ORD-1422,Microchips,PolyMakers,Miami,2023-08-01,2023-08-22,2023-09-02,21,Sea Shipping,120,169,64,1361
+ORD-1423,Microchips,PolyMakers,Chicago,2023-10-10,2023-11-08,2023-11-08,29,Standard Freight,318,115,220,654
+ORD-1424,Industrial Motors,HeavyParts Co,Chicago,2023-02-19,2023-03-03,2023-03-06,12,Sea Shipping,374,185,208,3994
+ORD-1425,Microchips,HeavyParts Co,Los Angeles,2023-04-05,2023-05-03,2023-05-17,28,Air Freight,331,91,250,1404
+ORD-1426,Steel Beams,TechSupply Inc,Houston,2023-03-29,2023-04-16,2023-04-16,18,Standard Freight,354,81,280,1769
+ORD-1427,Plastic Resins,WiredTech,Chicago,2023-02-13,2023-02-23,2023-02-28,10,Air Freight,56,25,94,904
+ORD-1428,Plastic Resins,GlobalMetals,Miami,2023-10-05,2023-11-01,2023-10-31,27,Air Freight,363,51,243,1343
+ORD-1429,Copper Wire,PolyMakers,Los Angeles,2023-06-20,2023-07-16,2023-07-28,26,Air Freight,354,118,57,2282
+ORD-1430,Microchips,TechSupply Inc,Los Angeles,2023-07-08,2023-07-28,2023-07-28,20,Sea Shipping,152,157,120,2064
+ORD-1431,Steel Beams,GlobalMetals,Miami,2023-07-03,2023-08-01,2023-08-01,29,Air Freight,358,150,297,1684
+ORD-1432,Copper Wire,TechSupply Inc,Houston,2023-01-03,2023-01-26,2023-02-02,23,Air Freight,242,95,157,1246
+ORD-1433,Industrial Motors,HeavyParts Co,Miami,2023-07-10,2023-07-28,2023-08-07,18,Air Freight,290,196,164,2225
+ORD-1434,Copper Wire,PolyMakers,Houston,2023-04-28,2023-05-21,2023-05-21,23,Standard Freight,111,78,152,3688
+ORD-1435,Copper Wire,GlobalMetals,Miami,2023-01-19,2023-01-26,2023-01-26,7,Standard Freight,66,50,283,770
+ORD-1436,Microchips,GlobalMetals,Miami,2023-01-23,2023-02-06,2023-02-05,14,Sea Shipping,220,112,174,4456
+ORD-1437,Industrial Motors,GlobalMetals,New York,2023-01-30,2023-02-22,2023-02-22,23,Sea Shipping,74,88,106,671
+ORD-1438,Copper Wire,GlobalMetals,Los Angeles,2023-10-22,2023-11-04,2023-11-04,13,Standard Freight,300,71,257,773
+ORD-1439,Steel Beams,GlobalMetals,Miami,2023-04-18,2023-05-12,2023-05-14,24,Sea Shipping,302,108,276,2806
+ORD-1440,Steel Beams,TechSupply Inc,Miami,2023-10-08,2023-10-25,2023-10-25,17,Standard Freight,436,146,79,1658
+ORD-1441,Plastic Resins,PolyMakers,Chicago,2023-05-08,2023-05-19,2023-05-19,11,Air Freight,256,188,251,2206
+ORD-1442,Industrial Motors,HeavyParts Co,Los Angeles,2023-08-17,2023-09-04,2023-09-03,18,Air Freight,78,50,279,2271
+ORD-1443,Industrial Motors,HeavyParts Co,Chicago,2023-04-21,2023-05-04,2023-05-03,13,Sea Shipping,166,103,195,921
+ORD-1444,Plastic Resins,HeavyParts Co,Los Angeles,2023-05-16,2023-06-12,2023-06-11,27,Standard Freight,465,146,163,1709
+ORD-1445,Copper Wire,HeavyParts Co,Chicago,2023-07-05,2023-08-03,2023-08-03,29,Standard Freight,331,169,246,1390
+ORD-1446,Industrial Motors,TechSupply Inc,Miami,2023-05-24,2023-06-16,2023-06-15,23,Sea Shipping,429,151,166,3767
+ORD-1447,Steel Beams,WiredTech,Miami,2023-03-13,2023-04-01,2023-03-31,19,Standard Freight,193,32,270,1973
+ORD-1448,Steel Beams,PolyMakers,New York,2023-05-09,2023-06-02,2023-06-01,24,Air Freight,74,64,216,3743
+ORD-1449,Microchips,GlobalMetals,Chicago,2023-09-18,2023-10-06,2023-10-10,18,Sea Shipping,359,146,109,4978
+ORD-1450,Industrial Motors,WiredTech,Houston,2023-01-03,2023-01-31,2023-02-04,28,Sea Shipping,205,189,147,2681
+ORD-1451,Copper Wire,HeavyParts Co,New York,2023-04-14,2023-04-24,2023-04-23,10,Standard Freight,122,133,220,1949
+ORD-1452,Plastic Resins,WiredTech,Chicago,2023-08-12,2023-09-06,2023-09-05,25,Sea Shipping,169,196,175,3596
+ORD-1453,Plastic Resins,PolyMakers,Chicago,2023-01-10,2023-01-18,2023-01-30,8,Standard Freight,361,39,222,3756
+ORD-1454,Copper Wire,GlobalMetals,New York,2023-08-19,2023-08-31,2023-09-12,12,Standard Freight,370,100,200,3656
+ORD-1455,Microchips,GlobalMetals,Miami,2023-08-07,2023-08-28,2023-09-08,21,Standard Freight,142,183,246,2090
+ORD-1456,Plastic Resins,PolyMakers,Chicago,2023-03-07,2023-03-20,2023-03-30,13,Standard Freight,135,148,143,4739
+ORD-1457,Industrial Motors,PolyMakers,Miami,2023-04-22,2023-04-27,2023-04-26,5,Standard Freight,385,162,183,4481
+ORD-1458,Microchips,HeavyParts Co,New York,2023-01-13,2023-02-10,2023-02-10,28,Sea Shipping,474,36,233,1935
+ORD-1459,Industrial Motors,GlobalMetals,Miami,2023-03-27,2023-04-20,2023-04-19,24,Air Freight,413,171,171,723
+ORD-1460,Steel Beams,WiredTech,Los Angeles,2023-08-22,2023-09-20,2023-09-19,29,Air Freight,484,77,287,719
+ORD-1461,Microchips,TechSupply Inc,Houston,2023-03-31,2023-04-18,2023-04-26,18,Sea Shipping,167,91,157,4774
+ORD-1462,Plastic Resins,TechSupply Inc,Chicago,2023-02-23,2023-03-10,2023-03-13,15,Sea Shipping,282,128,53,2154
+ORD-1463,Microchips,PolyMakers,Houston,2023-01-12,2023-02-06,2023-02-05,25,Air Freight,248,42,142,764
+ORD-1464,Microchips,HeavyParts Co,Miami,2023-07-28,2023-08-04,2023-08-03,7,Air Freight,255,193,200,1453
+ORD-1465,Microchips,TechSupply Inc,Chicago,2023-01-14,2023-01-27,2023-01-27,13,Air Freight,462,91,55,4233
+ORD-1466,Microchips,GlobalMetals,Miami,2023-05-01,2023-05-19,2023-05-29,18,Air Freight,388,27,81,3274
+ORD-1467,Industrial Motors,PolyMakers,Los Angeles,2023-01-20,2023-02-02,2023-02-02,13,Air Freight,196,78,155,3624
+ORD-1468,Steel Beams,WiredTech,New York,2023-03-16,2023-03-24,2023-03-23,8,Standard Freight,499,130,195,979
+ORD-1469,Copper Wire,PolyMakers,Chicago,2023-08-31,2023-09-08,2023-09-08,8,Sea Shipping,474,32,64,4014
+ORD-1470,Microchips,WiredTech,Los Angeles,2023-08-11,2023-08-23,2023-08-22,12,Standard Freight,478,186,217,1853
+ORD-1471,Plastic Resins,PolyMakers,Los Angeles,2023-03-11,2023-03-17,2023-03-16,6,Air Freight,320,175,171,3822
+ORD-1472,Microchips,PolyMakers,Chicago,2023-07-30,2023-08-12,2023-08-12,13,Air Freight,436,35,145,4378
+ORD-1473,Plastic Resins,PolyMakers,Miami,2023-04-11,2023-04-29,2023-05-03,18,Air Freight,188,138,250,1389
+ORD-1474,Industrial Motors,WiredTech,Los Angeles,2023-07-05,2023-07-31,2023-08-03,26,Standard Freight,230,21,278,4354
+ORD-1475,Plastic Resins,WiredTech,Houston,2023-05-12,2023-05-25,2023-06-02,13,Standard Freight,479,164,251,1424
+ORD-1476,Copper Wire,PolyMakers,Los Angeles,2023-04-21,2023-05-19,2023-05-19,28,Air Freight,79,49,261,2670
+ORD-1477,Steel Beams,TechSupply Inc,Miami,2023-05-12,2023-06-08,2023-06-08,27,Standard Freight,106,122,55,2402
+ORD-1478,Plastic Resins,HeavyParts Co,Miami,2023-01-20,2023-02-09,2023-02-08,20,Standard Freight,281,32,161,2895
+ORD-1479,Plastic Resins,HeavyParts Co,Houston,2023-01-24,2023-02-14,2023-02-19,21,Air Freight,195,115,169,528
+ORD-1480,Steel Beams,HeavyParts Co,Los Angeles,2023-08-15,2023-09-04,2023-09-03,20,Standard Freight,484,113,172,534
+ORD-1481,Copper Wire,WiredTech,Miami,2023-06-03,2023-06-19,2023-06-18,16,Sea Shipping,433,101,240,4089
+ORD-1482,Microchips,WiredTech,Chicago,2023-10-20,2023-10-27,2023-10-26,7,Sea Shipping,97,32,116,3170
+ORD-1483,Plastic Resins,TechSupply Inc,New York,2023-08-18,2023-09-02,2023-09-02,15,Sea Shipping,243,190,155,3865
+ORD-1484,Steel Beams,HeavyParts Co,New York,2023-07-21,2023-08-08,2023-08-08,18,Sea Shipping,273,113,188,1088
+ORD-1485,Industrial Motors,HeavyParts Co,New York,2023-02-07,2023-03-01,2023-02-28,22,Air Freight,185,168,92,3718
+ORD-1486,Steel Beams,PolyMakers,Los Angeles,2023-09-17,2023-10-12,2023-10-18,25,Air Freight,71,131,194,3638
+ORD-1487,Industrial Motors,WiredTech,Houston,2023-07-07,2023-08-01,2023-08-01,25,Air Freight,55,74,145,1403
+ORD-1488,Copper Wire,HeavyParts Co,Miami,2023-02-26,2023-03-07,2023-03-13,9,Sea Shipping,253,100,181,4586
+ORD-1489,Microchips,TechSupply Inc,Chicago,2023-01-20,2023-02-09,2023-02-21,20,Sea Shipping,288,187,240,2669
+ORD-1490,Steel Beams,TechSupply Inc,Chicago,2023-09-30,2023-10-24,2023-11-06,24,Standard Freight,234,135,245,839
+ORD-1491,Plastic Resins,HeavyParts Co,Los Angeles,2023-04-29,2023-05-08,2023-05-08,9,Standard Freight,409,162,130,4770
+ORD-1492,Copper Wire,WiredTech,New York,2023-03-12,2023-03-19,2023-03-18,7,Sea Shipping,341,199,90,2214
+ORD-1493,Steel Beams,TechSupply Inc,Los Angeles,2023-01-04,2023-01-20,2023-01-20,16,Sea Shipping,384,127,260,1056
+ORD-1494,Plastic Resins,PolyMakers,Houston,2023-08-09,2023-08-14,2023-08-20,5,Sea Shipping,269,72,182,3587
+ORD-1495,Steel Beams,TechSupply Inc,Houston,2023-01-14,2023-02-08,2023-02-08,25,Sea Shipping,165,147,209,3766
+ORD-1496,Industrial Motors,GlobalMetals,Miami,2023-01-03,2023-01-16,2023-01-15,13,Standard Freight,362,199,263,4067
+ORD-1497,Steel Beams,GlobalMetals,Miami,2023-08-04,2023-08-17,2023-08-16,13,Sea Shipping,98,177,297,2556
+ORD-1498,Steel Beams,WiredTech,Houston,2023-08-17,2023-08-25,2023-08-25,8,Standard Freight,222,180,247,4399
+ORD-1499,Steel Beams,HeavyParts Co,Houston,2023-07-05,2023-07-12,2023-07-19,7,Sea Shipping,131,76,84,1516
