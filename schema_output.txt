@@ -1,0 +1,42 @@
+--- TABLES ---
+FCT_SALES
+
+--- SCHEMA FOR FCT_SALES ---
+CATEGORY - VARCHAR(16777216)
+CITY - VARCHAR(16777216)
+COUNTRY - VARCHAR(16777216)
+Customer.ID - VARCHAR(16777216)
+Customer.Name - VARCHAR(16777216)
+DISCOUNT - NUMBER(38,0)
+MARKET - VARCHAR(16777216)
+记录数 - NUMBER(38,0)
+Order.Date - TIMESTAMP_NTZ(9)
+Order.ID - VARCHAR(16777216)
+Order.Priority - VARCHAR(16777216)
+Product.ID - VARCHAR(16777216)
+Product.Name - VARCHAR(16777216)
+PROFIT - NUMBER(38,4)
+QUANTITY - NUMBER(38,0)
+REGION - VARCHAR(16777216)
+Row.ID - NUMBER(38,0)
+SALES - NUMBER(38,0)
+SEGMENT - VARCHAR(16777216)
+Ship.Date - TIMESTAMP_NTZ(9)
+Ship.Mode - VARCHAR(16777216)
+Shipping.Cost - NUMBER(38,3)
+STATE - VARCHAR(16777216)
+SUB_CATEGORY - VARCHAR(16777216)
+YEAR - NUMBER(38,0)
+MARKET2 - VARCHAR(16777216)
+WEEKNUM - NUMBER(38,0)
+PROFIT_MARGIN_PERCENTAGE - FLOAT
+
+--- SAMPLE FOR FCT_SALES ---
+('Office Supplies', 'Los Angeles', 'United States', 'LS-172304', 'Lycoris Saunders', 0, 'US', 1, datetime.datetime(2011, 1, 7, 0, 0), 'CA-2011-130813', 'High', 'OFF-PA-10002005', 'Xerox 225', Decimal('9.3312'), 3, 'West', 36624, 19, 'Consumer', datetime.datetime(2011, 1, 9, 0, 0), 'Second Class', Decimal('4.370'), 'California', 'Paper', 2011, 'North America', 2, None)
+('Office Supplies', 'Los Angeles', 'United States', 'MV-174854', 'Mark Van Huff', 0, 'US', 1, datetime.datetime(2011, 1, 21, 0, 0), 'CA-2011-148614', 'Medium', 'OFF-PA-10002893', 'Wirebound Service Call Books, 5 1/2" x 4"', Decimal('9.2928'), 2, 'West', 37033, 19, 'Consumer', datetime.datetime(2011, 1, 26, 0, 0), 'Standard Class', Decimal('0.940'), 'California', 'Paper', 2011, 'North America', 4, None)
+('Office Supplies', 'Los Angeles', 'United States', 'CS-121304', 'Chad Sievert', 0, 'US', 1, datetime.datetime(2011, 8, 5, 0, 0), 'CA-2011-118962', 'Medium', 'OFF-PA-10000659', 'Adams Phone Message Book, Professional, 400 Message Capacity, 5 3/6” x 11”', Decimal('9.8418'), 3, 'West', 31468, 21, 'Consumer', datetime.datetime(2011, 8, 9, 0, 0), 'Standard Class', Decimal('1.810'), 'California', 'Paper', 2011, 'North America', 32, None)
+('Office Supplies', 'Los Angeles', 'United States', 'CS-121304', 'Chad Sievert', 0, 'US', 1, datetime.datetime(2011, 8, 5, 0, 0), 'CA-2011-118962', 'Medium', 'OFF-PA-10001144', 'Xerox 1913', Decimal('53.2608'), 2, 'West', 31469, 111, 'Consumer', datetime.datetime(2011, 8, 9, 0, 0), 'Standard Class', Decimal('4.590'), 'California', 'Paper', 2011, 'North America', 32, None)
+('Office Supplies', 'Los Angeles', 'United States', 'AP-109154', 'Arthur Prichep', 0, 'US', 1, datetime.datetime(2011, 9, 29, 0, 0), 'CA-2011-146969', 'High', 'OFF-PA-10002105', 'Xerox 223', Decimal('3.1104'), 1, 'West', 32440, 6, 'Consumer', datetime.datetime(2011, 10, 3, 0, 0), 'Standard Class', Decimal('1.320'), 'California', 'Paper', 2011, 'North America', 40, None)
+
+--- COUNT FOR FCT_SALES ---
+Total Rows: 51290
