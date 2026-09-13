@@ -1,15 +1,15 @@
-import pytest
 from fastapi.testclient import TestClient
 from backend.app.main import app
 
 client = TestClient(app)
 
-def test_health_check():
-    response = client.get("/health")
+def test_read_health():
+    response = client.get("/api/health")
     assert response.status_code == 200
-    assert response.json()["status"] == "healthy"
+    assert response.json() == {"status": "healthy"}
 
-def test_roi_endpoint():
-    response = client.get("/api/roi")
+def test_dataset_summary_empty_or_valid():
+    response = client.get("/api/dataset/summary")
     assert response.status_code == 200
-    assert "roi_percentage" in response.json()
+    data = response.json()
+    assert "total_shipments" in data
