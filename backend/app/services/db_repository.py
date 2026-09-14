@@ -1,6 +1,7 @@
 import sqlite3
 import os
 import logging
+import snowflake.connector
 from .snowflake_service import snowflake_service
 from ..config import settings
 
