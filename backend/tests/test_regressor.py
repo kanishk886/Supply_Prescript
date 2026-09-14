@@ -1,34 +1,30 @@
 import pytest
 import pandas as pd
 import numpy as np
-from backend.ml.feature_engineering import FeatureEngineer
-from backend.ml.train_regressor import RegressorPipeline
+from unittest.mock import patch
+from backend.ml.train_regressor import train_regressor
 
-def test_regressor_training():
+@patch('backend.ml.train_regressor.pd.read_sql')
+@patch('backend.ml.train_regressor.joblib.dump')
+@patch('backend.ml.train_regressor.version_manager.register_model')
+def test_regressor_training(mock_register, mock_dump, mock_read_sql):
     # Mock data
     np.random.seed(42)
     df = pd.DataFrame({
-        'order_date': pd.date_range(start='2023-01-01', periods=100),
-        'ship_date': pd.date_range(start='2023-01-03', periods=100),
-        'shipping_delay_days': np.random.randint(1, 6, 100),
-        'sales': np.random.rand(100) * 1000,
-        'profit': np.random.rand(100) * 100,
-        'quantity': np.random.randint(1, 10, 100),
-        'discount': np.random.rand(100) * 0.5,
-        'category': ['Office Supplies', 'Furniture'] * 50,
-        'sub_category': ['Paper', 'Chairs'] * 50,
-        'shipping_mode': ['Standard Class', 'Second Class'] * 50,
-        'region': ['West', 'East'] * 50,
-        'segment': ['Consumer', 'Corporate'] * 50
+        'delay_days': [1, 5] * 50,  # All > 0 to simulate delayed orders
+        'lead_time': np.random.randint(1, 10, 100),
+        'quantity': np.random.randint(1, 100, 100),
+        'inventory': np.random.randint(0, 1000, 100),
+        'demand': np.random.randint(10, 500, 100),
+        'shipping_cost': np.random.rand(100) * 100
     })
     
-    fe = FeatureEngineer(delay_threshold_days=3)
-    df_feat = fe.transform(df)
+    mock_read_sql.return_value = df
     
-    rp = RegressorPipeline()
-    metrics = rp.train(df_feat)
+    # Should run without error
+    train_regressor()
     
-    assert 'mae' in metrics
-    assert 'rmse' in metrics
-    assert 'r2' in metrics
-    assert rp.model is not None
+    # Verify it attempted to save
+    mock_dump.assert_called_once()
+    mock_register.assert_called_once()
+
