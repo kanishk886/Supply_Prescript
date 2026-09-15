@@ -12,6 +12,7 @@ const DashboardLayout: React.FC<{children: React.ReactNode, setView: (v: string)
       { id: 'prescriptive', label: 'Prescriptions' },
       { id: 'history', label: 'Decisions' },
       { id: 'roi', label: 'Outcome Analytics' },
+      { id: 'profile', label: 'User Profile' },
   ];
 
   return (

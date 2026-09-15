@@ -6,6 +6,7 @@ import SupplyRisk from './pages/SupplyRisk';
 import Prescriptive from './pages/Prescriptive';
 import History from './pages/History';
 import RoiDashboard from './pages/RoiDashboard';
+import Profile from './pages/Profile';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import { AuthProvider, useAuth } from './context/AuthContext';
@@ -27,6 +28,7 @@ function AppContent() {
       {view === 'prescriptive' && <Prescriptive />}
       {view === 'history' && <History />}
       {view === 'roi' && <RoiDashboard />}
+      {view === 'profile' && <Profile />}
     </DashboardLayout>
   );
 }
